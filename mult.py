@@ -2,7 +2,6 @@ import os
 import cmd
 
 # Função para multiplas opções de instalação
-lista = ['1', '2']
 def mult(lista):
 
     for i in range(len(lista)):
@@ -16,6 +15,7 @@ def mult(lista):
         elif lista[i] == '3':
             os.system(cmd.git)
             print('Git instalado com sucesso!')
+        elif lista[i] == 's':
+            print('Fim do programa')
+            return False
 
-
-mult(lista)
