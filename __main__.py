@@ -3,26 +3,20 @@ import os
 import brave
 import cmd
 import unic
+import msg
+import mult
 #---------------
 opt = True
 
 while opt:
-    opt = input('''
-    Escolha uma ou mais opções abaixo:
-    ---------------------------------
-        1 - vim
-        2 - java
-        3 - zsh
-        4 - brave
-    =================================
-        h - ajuda s - sair
-    ---------------------------------
-''')
+    msg.msg()
+    opt = input()
     if len(opt) == 1:
-       unic.cunic(opt)
+        opt =  unic.cunic(opt)
 
 
     elif len(opt) >= 2:
         cmds = opt.split(' ')
         print(cmds)
-        cmd(cmds)
+        opt = mult.mult(cmds)
+
