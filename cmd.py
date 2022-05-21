@@ -3,7 +3,7 @@
 
 vim = 'sudo apt install vim'
 java = 'sudo apt install default-jdk -y'
-qbittorrent = 'sudo apt install qbittorrent - y'
+qbit = 'sudo apt install qbittorrent - y'
 krita = 'sudo apt install krita -y'
 gimp = 'sudo apt install gimp -y'
 kde = 'sudo apt install kdeconnect -y'

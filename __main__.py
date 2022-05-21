@@ -1,6 +1,5 @@
+# Script para instalação de múltiplos programas Linux
 # imports
-import os
-import brave
 import cmd
 import unic
 import msg
